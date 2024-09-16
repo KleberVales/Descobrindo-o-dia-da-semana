@@ -19,13 +19,13 @@ class Result {
         c.set(year, month-1, day);
         int dayNum = c.get(Calendar.DAY_OF_WEEK);
         
-        if(dayNum == 1) return "SUNDAY";
-        if(dayNum == 2) return "MONDAY";
-        if(dayNum == 3) return "TUESDAY";
-        if(dayNum == 4) return "WEDNESDAY";
-        if(dayNum == 5) return "THURSDAY";
-        if(dayNum == 6) return "FRIDAY";
-        if(dayNum == 7) return "SATURDAY";
+        if(dayNum == 1) return "Domingo";
+        if(dayNum == 2) return "Segunda Feira";
+        if(dayNum == 3) return "Terça Feira";
+        if(dayNum == 4) return "Quarta Feira";
+        if(dayNum == 5) return "Quinta Feira";
+        if(dayNum == 6) return "Sexta Feira";
+        if(dayNum == 7) return "Sabado";
         
         return "DAY IS UNDEFINED";
     }
